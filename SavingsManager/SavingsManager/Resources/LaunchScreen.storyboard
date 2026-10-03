@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="1600" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="yes" launchScreen="yes" colorMatched="yes">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1600"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LaunchScreenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="yes" heightSizable="yes"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SavingsManager" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjH-9L-b1t">
+                                <rect key="frame" x="136" y="376" width="121" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28" weight="semibold"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" systemImageName="creditcard.trianglebadge.exclamationmark" translatesAutoresizingMaskIntoConstraints="NO" id="V8J-2K-n3m">
+                                <rect key="frame" x="166" y="280" width="60" height="60"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KjH-9L-b1t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1aB-2C-3dE"/>
+                            <constraint firstItem="V8J-2K-n3m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4fG-5H-6iJ"/>
+                            <constraint firstItem="KjH-9L-b1t" firstAttribute="top" secondItem="V8J-2K-n3m" secondAttribute="bottom" constant="32" id="7kL-8M-9nO"/>
+                            <constraint firstItem="V8J-2K-n3m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="280" id="0pQ-1rS-2tU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vUN-kp-3eQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKL-4M-5nP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
